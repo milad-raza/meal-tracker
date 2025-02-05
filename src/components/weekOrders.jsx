@@ -109,7 +109,7 @@ export default function WeekOrders() {
       <div className="bg-white md:sticky top-0 w-full z-30">
         <div className="flex justify-center flex-col items-center">
           <div className="max-w-screen-xl w-full flex justify-between items-center flex-col md:flex-row py-6 px-10 gap-4">
-            <div className="flex justify-between flex-wrap w-full md:w-3/5">
+            <div className="flex sm:justify-between flex-wrap w-full md:w-3/5">
               {["ALL_MEALS", "WEEK_1", "WEEK_2", "WEEK_3", "WEEK_4"].map(
                 (tab) => (
                   <div

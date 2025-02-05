@@ -22,11 +22,11 @@ export default function WeekDialog({ onClose, onSubmit }) {
       onClick={onClose} 
     >
       <div
-        className="bg-white p-6 rounded-lg shadow-lg"
+        className="bg-white p-6 rounded-lg shadow-lg m-2"
         onClick={(e) => e.stopPropagation()} 
       >
         <h2 className="text-xl font-bold mb-10 text-center">Select Week</h2>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {["WEEK_1", "WEEK_2", "WEEK_3", "WEEK_4"].map((week) => (
             <button
               key={week}
